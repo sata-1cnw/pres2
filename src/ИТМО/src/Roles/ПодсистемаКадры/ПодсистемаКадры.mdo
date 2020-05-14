@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d111363d-dad0-4cb0-8f46-18337371d4ec">
+  <name>ПодсистемаКадры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема кадры</value>
+  </synonym>
+</mdclass:Role>

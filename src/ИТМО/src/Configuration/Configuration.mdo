@@ -28,7 +28,7 @@
   <subsystems>Subsystem.НСИ</subsystems>
   <subsystems>Subsystem.Мероприятия</subsystems>
   <subsystems>Subsystem.Продажи</subsystems>
-  <subsystems>Subsystem.Подсистема1</subsystems>
+  <subsystems>Subsystem.Кадры</subsystems>
   <roles>Role.Администратор</roles>
   <roles>Role.Пользователь</roles>
   <roles>Role.ЧтениеСотрудников</roles>
@@ -36,6 +36,8 @@
   <roles>Role.ЧтениеНоменклатуры</roles>
   <roles>Role.ДобавлениеИзменениеНоменклатуры</roles>
   <roles>Role.ПодсистемаНСИ</roles>
+  <roles>Role.ПодсистемаКадры</roles>
+  <roles>Role.ДобавлениеИзменениеПриемовНаРаботу</roles>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Должности</catalogs>
   <catalogs>Catalog.Номеклатура</catalogs>
@@ -51,6 +53,7 @@
   <documents>Document.ПриходДенег</documents>
   <documents>Document.АктВыполненныхРабот</documents>
   <documents>Document.МаршрутныйЛист</documents>
+  <documents>Document.ПриемНаРаботу</documents>
   <enums>Enum.СтатусыМероприятия</enums>
   <reports>Report.ВедомостьПоТоварам</reports>
   <informationRegisters>InformationRegister.Цены</informationRegisters>
