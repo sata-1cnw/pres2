@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b189496e-890c-4b23-a5fa-875e381e1304">
+  <producedTypes>
+    <objectType typeId="55c1129d-86eb-4a03-b017-5d065bf15ece" valueTypeId="7d64a2f9-224b-4b96-91c5-6aa080240035"/>
+    <refType typeId="ad109141-71c9-46ed-9e49-1e782e818860" valueTypeId="25bde306-c694-4ef9-be08-37015e779a1e"/>
+    <selectionType typeId="9f74d468-ae65-4ad9-8bde-9949415954fc" valueTypeId="9929cfc7-b281-43f1-a38d-e8c3545d3cb4"/>
+    <listType typeId="020e49a6-697a-49e1-9671-d643c6cf01c6" valueTypeId="5714ef4f-10d0-4581-9f4f-54a51e6fe2f8"/>
+    <managerType typeId="e3f2e3e4-9a56-4f7e-9ba3-0e335dfc9580" valueTypeId="f5068187-65b4-4b09-81ec-615824eeb8ac"/>
+  </producedTypes>
+  <name>Субподрядчики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Субподрядчики (исполнители)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Субподрядчики.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Субподрядчики.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

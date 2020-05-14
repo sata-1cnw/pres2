@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1de8bd6a-3a35-48fd-b011-6a9f2d22199f">
+  <producedTypes>
+    <objectType typeId="9c5873b2-4be5-4063-937e-a4af348db6d4" valueTypeId="578c7019-2c17-4f22-ae80-5c31716ab1da"/>
+    <refType typeId="18efa492-c6b0-4f05-a2e8-d35ac7d464b2" valueTypeId="5ae59e18-abbf-41ca-bc97-4a5adddea207"/>
+    <selectionType typeId="b5f34107-7937-40bb-ae23-4f752247a76a" valueTypeId="a662cc60-461b-46d9-9096-51de39a1c880"/>
+    <listType typeId="1190fe58-58f9-43ea-9012-68aa26852857" valueTypeId="de6cbee6-ccb8-4d8e-baf3-dfa41c56e60f"/>
+    <managerType typeId="63a4befa-dc66-4a69-bf6a-08ec794c75f4" valueTypeId="039f1114-681a-46e4-a56a-17c103f8d09e"/>
+  </producedTypes>
+  <name>ПриходДенег</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приход денег</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПриходДенег.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="2cc3e4c2-3660-45bc-813c-b43a5db83296">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="09614d4c-20ea-4132-87e5-c334f9fad9e7">
+    <name>Сумму</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумму</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e4cb0a4f-5035-431f-82db-ee981970e831">
+    <name>Заявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

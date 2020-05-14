@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38fa07e6-92a3-409f-94ce-efb84a81c571">
+  <producedTypes>
+    <objectType typeId="fbf1d380-993e-4a12-8401-01f655203f9d" valueTypeId="4f81df54-7c01-4232-9662-a869f6449838"/>
+    <refType typeId="cc19d8d5-e397-43d6-9760-7a858c6c6279" valueTypeId="7f5a02a9-f305-4795-96bf-3e057fe64dbf"/>
+    <selectionType typeId="3176fac6-3866-4ac5-b493-f248fa3281f0" valueTypeId="f6806704-6b86-4782-a869-20ac1038981a"/>
+    <listType typeId="46ca9e44-6baa-4d67-bb72-da54bf6c6af7" valueTypeId="b0c9fa75-2a8d-4e39-9fe7-9a43e94094c4"/>
+    <managerType typeId="88d7543a-646c-4e9e-b82a-fb63f6cc41a9" valueTypeId="656cbd66-3eb9-4c3a-b0a6-b20a4dde3eb2"/>
+  </producedTypes>
+  <name>ДокументУстановкиЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документ установки цен</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ДокументУстановкиЦен.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="47d99bba-7303-4857-a332-ee7f5c31171e">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="58ba23d0-c5dd-44a3-b61f-06c7ebf1cef9">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d1330786-de8d-4723-8aac-7599189376d5">
+    <name>Артикул</name>
+    <synonym>
+      <key>ru</key>
+      <value>Артикул</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

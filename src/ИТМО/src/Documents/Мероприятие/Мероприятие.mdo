@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e12b00ea-61ec-4fd2-983b-8519558915fa">
+  <producedTypes>
+    <objectType typeId="91079e72-a7ca-44ed-8cd4-302aa4297fcc" valueTypeId="17c2fdb9-971a-4961-bc99-8af0ec3671fc"/>
+    <refType typeId="33e12452-0b63-4e28-9d29-39a88875209e" valueTypeId="2abe6b69-0c4a-457c-bbc7-071bdc2b07b3"/>
+    <selectionType typeId="87b34796-0e75-4194-b9cc-3cf4eafbc6cc" valueTypeId="1637a64a-8d57-46e5-aebc-b8796fbee960"/>
+    <listType typeId="04134f8f-6c4b-4966-bf7d-0cb5fc79f437" valueTypeId="ae13f1d9-30e6-4ce7-9027-dd7a9373b6a9"/>
+    <managerType typeId="1ac12a0b-35e8-4358-9b70-8cccc33e9da9" valueTypeId="727d585e-156d-4b97-a56d-103c9cd42670"/>
+  </producedTypes>
+  <name>Мероприятие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мероприятие</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Мероприятие.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Мероприятие.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="558805d8-1a65-4b56-872c-f5dd60788cb8">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыМероприятия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="3b993575-e154-412c-8938-0a6ad8d380c7">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="9a2e1a03-8a49-4ccc-a7f4-c6678e2e5f0d">
+    <producedTypes>
+      <objectType typeId="7fb7d720-325d-497f-a2a7-70aa4ed6289a" valueTypeId="2055e0ca-51a4-433c-9eef-41bbd66a44d9"/>
+      <rowType typeId="60858d82-6b77-47a6-8656-8159ddae7d00" valueTypeId="cea345be-d5cd-42a2-95f8-a06ef9604285"/>
+    </producedTypes>
+    <name>Команда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Команда</value>
+    </synonym>
+    <attributes uuid="6eb823d8-a961-4493-abe5-e879ccd2138a">
+      <name>Исполнитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Исполнитель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Субподрядчики</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

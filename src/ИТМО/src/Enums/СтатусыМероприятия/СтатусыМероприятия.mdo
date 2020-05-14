@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1dc60815-493a-4436-9b4c-83779e7e3dc0">
+  <producedTypes>
+    <refType typeId="20637284-f202-4894-a990-349f6c2fe377" valueTypeId="8c637ac5-3e7a-4678-b59e-c33aeb9f9c29"/>
+    <listType typeId="32526c17-8576-4644-b230-f36cfa838278" valueTypeId="86492266-12cd-40f9-ba92-fecd50d36fef"/>
+    <managerType typeId="629aef2a-bae6-4b69-b4be-0a64faeca15b" valueTypeId="f7e51903-d7cf-4cdc-9326-be56c70b5425"/>
+  </producedTypes>
+  <name>СтатусыМероприятия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы мероприятия</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d8ee5218-ff04-4b4f-8d42-464d98f9f6c6">
+    <name>Заявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4d53fc40-48ae-4b8e-a556-46e908ad91b9">
+    <name>План</name>
+    <synonym>
+      <key>ru</key>
+      <value>План</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a3570716-44f0-4c8d-bf88-7dc4c57f5849">
+    <name>ФормированиеКоманды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формирование команды</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9986aef1-539f-4dda-be5f-d878041fc2f3">
+    <name>Согласование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d12daaff-c644-4950-9fa7-08a11604e6cc">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

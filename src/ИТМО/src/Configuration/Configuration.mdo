@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eebcf773-6e41-4480-b65c-c8d4c9f9af44">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="7b01f156-5045-412d-9733-3c017caae8ff"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="a19cd393-df9f-4dcc-954d-10b1f3cf781f"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="37b9afd5-bb80-4b3b-83a3-a4e25e5d129d"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="d3a624ae-ed99-4b46-bae6-d565c296444b"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="16327d2e-36c3-481f-9055-bbfa6a3b0fb8"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="70048c7c-7ff9-406a-936d-4b6e2d69f57b"/>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.13</compatibilityMode>
+  <languages uuid="4f78726d-ba4a-44d5-a816-f9051854187b">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.Мероприятия</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.Подсистема1</subsystems>
+  <roles>Role.Администратор</roles>
+  <roles>Role.Пользователь</roles>
+  <roles>Role.ЧтениеСотрудников</roles>
+  <roles>Role.ДобавлениеИзменениеСотрудников</roles>
+  <roles>Role.ЧтениеНоменклатуры</roles>
+  <roles>Role.ДобавлениеИзменениеНоменклатуры</roles>
+  <roles>Role.ПодсистемаНСИ</roles>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.Номеклатура</catalogs>
+  <catalogs>Catalog.Субподрядчики</catalogs>
+  <catalogs>Catalog.СтатусыМероприятий</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Договоры</catalogs>
+  <documents>Document.ПоступлениеТоваров</documents>
+  <documents>Document.ДокументУстановкиЦен</documents>
+  <documents>Document.РеализацияТоваров</documents>
+  <documents>Document.Мероприятие</documents>
+  <documents>Document.ЗаявкаНаПеревозку</documents>
+  <documents>Document.ПриходДенег</documents>
+  <documents>Document.АктВыполненныхРабот</documents>
+  <documents>Document.МаршрутныйЛист</documents>
+  <enums>Enum.СтатусыМероприятия</enums>
+  <reports>Report.ВедомостьПоТоварам</reports>
+  <informationRegisters>InformationRegister.Цены</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
+  <tasks>Task.ЗадачаИсполнителя</tasks>
+</mdclass:Configuration>
